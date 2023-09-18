@@ -7,12 +7,12 @@ import { ProfileComponent } from './profile/profile.component';
 import { SponsersComponent } from './sponsers/sponsers.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
   {path:'profile',component:ProfileComponent },
   {path:'sponsers',component: SponsersComponent},
   {path:'media',component:MediaComponent},
   {path:'contact',component:ContactComponent},
-  { path: '**', redirectTo:'',pathMatch:'full' }
+  { path: '**', redirectTo:'home',pathMatch:'full' }
 ];
 
 @NgModule({
