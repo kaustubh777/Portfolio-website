@@ -1,0 +1,13 @@
+.carousalEffects{
+    .decideHeadingFont{
+        font-size: 50px;
+        @media only screen and (max-width: 768px) {
+            font-size: 27px;
+        }
+    }
+    .decideTextFont{
+        @media only screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+    }
+}
